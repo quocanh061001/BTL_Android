@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thuchanhFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/anh" />
+
+    <RelativeLayout
+        android:layout_width="405dp"
+        android:layout_height="403dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="132dp"
+            android:layout_height="57dp"
+            android:gravity="center"
+            android:text="Luật thi"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="306dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="50dp"
+            android:text="Tổng điểm:100 điểm"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="290dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="85dp"
+            android:text="Số điểm để qua :80 điểm"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="336dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="120dp"
+            android:text="Trình tự đi:Đi vòng số 8->đi vạch trên đường thẳng->Đi trên đường có vạch cản->Đi đường gồ ghề"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
